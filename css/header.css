@@ -2,6 +2,7 @@ header {
     background-color: var(--background-secondary-color);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 38px 48px;
     position: relative;
 }
@@ -14,13 +15,13 @@ header {
 }
 
 .navigation-menu {
-    padding-top: 26px;
+    padding-top: 8px;
 }
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
     position: absolute;
-    top: 100%;
+    top: 85%;
     left: 0;
     background-color: var(--background-secondary-color);
     width: 100%;
@@ -41,4 +42,31 @@ nav {
 .list-links li a {
     text-decoration: none;
     color: var(--text-secondary-color);
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation-menu {
+        padding: 0;
+        width: 467px;
+    }
+    .navigation-menu label {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    .navigation-menu ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+    .navigation-menu ul li {
+        margin: 0;
+    }
+    .navigation-menu ul a {
+        font-size: 24px;
+    }
+
 }
