@@ -5,11 +5,25 @@
   background-size: cover;
 }
 
+.hero h2 {
+    font-weight: var(--text-weight);
+    padding: 88px 24px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
     background-size: cover;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+    padding: 88px 60px;
   }
 }
 
@@ -18,4 +32,14 @@
     background: url(../img/hero-desktop.jpg) no-repeat;
     background-size: cover;
   }
+
+  .hero h2 {
+    padding: 104px 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero h2 {
+        padding: 104px 160px;
+    }
 }
