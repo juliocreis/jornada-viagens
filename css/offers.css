@@ -1,39 +1,53 @@
 .card {
-    width: 312px;
-    height: 288px;
-    margin: 0 auto;
-    background-color: #000000;
-    padding: 24px 16px;
-    text-align: center;
-    border-radius: 16px;
-    margin-bottom: 24px;
-    color: var(--text-secondary-color);
+  width: 312px;
+  height: 288px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 24px 16px;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  color: var(--text-secondary-color);
 }
 
 .card header {
-    display: block;
-    padding: 0;
-    position: static;
-    background-color: transparent;
+  display: block;
+  padding: 0;
+  position: static;
+  background-color: transparent;
 }
 
-.card header p{
-    font-weight: var(--text-weight);
-    font-size: 20px;
+.card header p {
+  font-weight: var(--text-weight);
+  font-size: 20px;
 }
 
 .card section {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-.card section h3{
-    font-weight: var(--title-weight);
-    font-size: 40px;
-    margin: 8px 0 0 0;
+.card section h3 {
+  font-weight: var(--title-weight);
+  font-size: 40px;
+  margin: 8px 0 0 0;
 }
 
 .card section span {
-    font-size: 32px;
-    display: inline-block;
-    margin-top: 24px;
+  font-size: 32px;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card section h3 {
+    font-size: 48px;
+  }
+
+  .card section span {
+    font-size: 40px;
+  }
 }
