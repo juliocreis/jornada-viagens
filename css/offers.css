@@ -1,7 +1,13 @@
+.offers-card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
 .card {
   width: 312px;
   height: 288px;
-  margin: 0 auto;
   background-color: #000000;
   padding: 24px 16px;
   text-align: center;
@@ -58,9 +64,17 @@
   margin-top: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .offers-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .card {
-    width: 588px;
+    width: 420px;
     height: 308px;
   }
 
@@ -90,5 +104,18 @@
 
   .card section span {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1800px){
+  .offers-card {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
