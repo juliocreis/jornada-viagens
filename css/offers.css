@@ -10,6 +10,26 @@
   color: var(--text-secondary-color);
 }
 
+.card.japao {
+  background: url(../img/bg-card-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background: url(../img/bg-card-san-andreas-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background: url(../img/bg-card-paraiba-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background: url(../img/bg-card-manaus-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
 .card header {
   display: block;
   padding: 0;
@@ -43,6 +63,27 @@
     width: 588px;
     height: 308px;
   }
+
+  .card.japao {
+    background: url(../img/bg-card-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.san-andreas {
+    background: url(../img/bg-card-san-andreas-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.paraiba {
+    background: url(../img/bg-card-paraiba-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.manaus {
+    background: url(../img/bg-card-manaus-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
   .card section h3 {
     font-size: 48px;
   }
