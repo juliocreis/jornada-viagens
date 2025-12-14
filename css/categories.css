@@ -1,0 +1,35 @@
+.categories-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.item {
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-tertiary-color);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-primary-color);
+    font-weight: var(--title-weight);
+    font-size: 28px;
+    gap: 24px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .item {
+        width: 270px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .item {
+        width: 282px;
+    }
+}
