@@ -1,3 +1,10 @@
+.categories .section-title h2 {
+    width: 312px;
+    height: 78px;
+    margin: 0 auto;
+    font-size: 32px;
+}
+
 .categories-items {
     display: flex;
     flex-wrap: wrap;
@@ -12,19 +19,32 @@
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     justify-content: center;
     align-items: center;
+    gap: 24px;
+    text-decoration: none;
+    padding: 24px;
+}
+
+.item h3 {
     color: var(--text-primary-color);
     font-weight: var(--title-weight);
-    font-size: 28px;
-    gap: 24px;
     text-align: center;
+    font-size: 28px;
+    margin: 0;
+
+}
+
+@media screen and (min-width: 768px) {
+    .categories .section-title h2 {
+        width: 366px;
+        height: 38px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .item {
-        width: 270px;
+        width: 190px;
     }
 }
 
