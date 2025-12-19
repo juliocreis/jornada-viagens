@@ -41,21 +41,6 @@
   background-size: cover;
 }
 
-.card.colombia {
-  background: url(../img/bg-card-colombia-desktop.jpg) no-repeat;
-  background-size: cover;
-  background-position: -150px 0px;
-}
-
-.card.peru-bolivia {
-  background: url(../img/bg-card-peru-bolivia-desktop.jpg);
-  background-size: cover;
-}
-
-.card.peru-bolivia section h3 {
-  font-size: 38px;
-}
-
 .card header {
   display: block;
   padding: 0;
@@ -91,15 +76,11 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
-  .card {
-    width: 312px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
   .card {
-    width: 430px;
+    width: 420px;
     height: 308px;
   }
 
@@ -123,10 +104,6 @@
     background-size: cover;
   }
 
-  .card.colombia {
-    background-position: 0 0;
-  }
-
   .card section h3 {
     font-size: 48px;
   }
@@ -140,11 +117,6 @@
   .card {
     width: 588px;
   }
-
-
-  .card.colombia {
-    background-position: 0 0;
-  }
 }
 
 @media screen and (min-width: 1800px){
@@ -153,4 +125,3 @@
     margin: 0 auto 88px;
   }
 }
-
