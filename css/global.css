@@ -45,7 +45,20 @@ body {
 
 section {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 24px 0;
+}
+
+.content-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  margin-bottom: 24px;
 }
 
 .hero {

@@ -1,0 +1,43 @@
+.payments .text-content .content-title {
+  margin-top: 32px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 460px;
+  gap: 24px;
+}
+
+.image.bag {
+  background: url(../img/payments-bag-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image.passport {
+  background: url(../img/payments-passport-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.image.friends {
+  background: url(../img/payments-friends-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .image.bag {
+    background: url(../img/payments-bag-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .image.passport {
+    background: url(../img/payments-passport-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .image.friends {
+    background: url(../img/payments-friends-tablet-desk.jpg) no-repeat;
+    background-size: cover;
+  }
+}
