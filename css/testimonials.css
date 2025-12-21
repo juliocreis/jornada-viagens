@@ -36,14 +36,9 @@
     color: var(--primary-color);
 }
 
-@media screen and (min-width: 768px) {
-
-}
-
 @media screen and (min-width: 1440px) {
     .testimonials .testimonials-items {
         display: flex;
         gap: 24px;
-        width: 1200px;
     }
 }
