@@ -28,7 +28,7 @@ header {
 input[type="checkbox"]:checked ~ nav {
     display: block;
     position: absolute;
-    top: 85%;
+    top: 75%;
     left: 0;
     background-color: var(--background-secondary-color);
     width: 100%;

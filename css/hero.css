@@ -24,6 +24,35 @@
   background-position: center;
 }
 
+.hero-img-pacotes.monte{
+  height: 460px;
+  background: url(../img/pacotes-hero-monte.jpg);
+  background-size: cover;
+  padding: 85px 24px;
+  box-sizing: border-box;
+}
+
+.hero-img-pacotes.monte h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.hero-img-pacotes.monte hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  background-color: var(--primary-color);
+  margin: 16px 156px 32px 0;
+}
+
+.hero-img-pacotes.monte p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
