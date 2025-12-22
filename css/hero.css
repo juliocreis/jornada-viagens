@@ -26,8 +26,9 @@
 
 .hero-img-pacotes.monte{
   height: 460px;
-  background: url(../img/pacotes-hero-monte.jpg);
+  background: url(../img/pacotes-hero-monte-mobile.jpg);
   background-size: cover;
+  background-position: center;
   padding: 85px 24px;
   box-sizing: border-box;
 }
@@ -70,6 +71,19 @@
     background-position: center;
   }
 
+  .hero-img-pacotes.monte {
+    background: url(../img/pacotes-hero-monte-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 209px 70px 108px;
+    height: 620px;
+  }
+
+  .hero-img-pacotes.monte p {
+    font-size: 32px;
+    line-height: 150%;
+  }
+
   .hero h2 {
     font-size: 32px;
     padding: 88px 60px;
@@ -93,6 +107,13 @@
     background: url(../img/hero-baia-desktop.jpg);
     background-size: cover;
     background-position: center;
+  }
+
+  .hero-img-pacotes.monte {
+    background: url(../img/pacotes-hero-monte-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 160px 742px 160px 120px;
   }
 
   .hero h2 {
