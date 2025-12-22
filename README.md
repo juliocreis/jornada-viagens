@@ -1,7 +1,6 @@
 # 🌍 Jornada Viagens
 
 Projeto de **site institucional para uma empresa de viagens fictícia**, desenvolvido para **fins educacionais e de portfólio**.  
-A *Jornada Viagens não é uma empresa real* — todo o conteúdo apresentado (pacotes, preços, serviços e depoimentos) é **simulado**.
 
 🔗 **Acesse o projeto online:**  
 https://jornada-viagens-zeta.vercel.app/
