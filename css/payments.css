@@ -1,3 +1,17 @@
+.payments .container-content .text-content h3 {
+  font-size: 40px;
+  margin: 32px 0 24px;
+}
+
+.payments .container-content .text-content h4 {
+  font-size: 28px;
+}
+
+.payments .container-content .text-content .button {
+  width: 312px;
+  margin-bottom: 24px;
+}
+
 .payments .container-content .grid-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -22,7 +36,27 @@
   grid-column: span 2;
 }
 
+.payments .container-content .grid-layout .image.casa {
+  background: url(../img/pacotes-payments-casa-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .container-content .grid-layout .image.rua {
+  background: url(../img/pacotes-payments-rua-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.payments .container-content .grid-layout .image.mulher {
+  background: url(../img/pacotes-payments-mulher-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+}
+
 @media screen and (min-width: 768px) {
+  .payments .container-content .text-content .button {
+    display: none;
+  }
+
   .payments .container-content .grid-layout .image.bag {
     background: url(../img/payments-bag-tablet-desk.jpg) no-repeat;
     background-size: cover;
@@ -37,6 +71,22 @@
     background: url(../img/payments-friends-tablet-desk.jpg) no-repeat;
     background-size: cover;
   }
+
+  .payments .container-content .grid-layout .image.casa {
+    background: url(../img/pacotes-payments-casa-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .container-content .grid-layout .image.rua {
+    background: url(../img/pacotes-payments-rua-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .container-content .grid-layout .image.mulher {
+    background: url(../img/pacotes-payments-mulher-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
