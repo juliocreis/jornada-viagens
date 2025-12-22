@@ -24,7 +24,7 @@
   background-position: center;
 }
 
-.hero-img-pacotes.monte{
+.hero-img-pacotes.monte {
   height: 460px;
   background: url(../img/pacotes-hero-monte-mobile.jpg);
   background-size: cover;
@@ -53,6 +53,12 @@
   line-height: 32px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
+}
+
+.hero-img.mulheres {
+  background: url(../img/mulheres-mobile.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -89,6 +95,12 @@
     font-size: 32px;
     padding: 88px 60px;
   }
+
+  .hero-img.mulheres {
+    background: url(../img/mulheres-tablet-aprimorada.jpg);
+    background-size: cover;
+    background-position: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -120,5 +132,11 @@
 
   .hero h2 {
     padding: 104px 160px;
+  }
+
+  .hero-img.mulheres {
+    background: url(../img/mulheres-desktop.jpg);
+    background-size: cover;
+    background-position: center;
   }
 }
