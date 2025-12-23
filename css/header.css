@@ -52,10 +52,7 @@ nav {
     font-weight: 500;
 }
 
-.link:focus,
-.link:active,
-.link:visited
-{
+.link {
     text-decoration: underline;
 }
 
