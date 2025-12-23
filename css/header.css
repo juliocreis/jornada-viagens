@@ -52,7 +52,7 @@ nav {
     font-weight: 500;
 }
 
-.link {
+header .navigation-menu nav .list-links .link {
     text-decoration: underline;
 }
 
